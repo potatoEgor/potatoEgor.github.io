@@ -1,0 +1,8 @@
+	p{color: #44610e78; text-align: center; margin: 30px 40px; font-family: 'Press Start 2P', cursive;}
+	body{background-color: #80808078;}
+	div{background-color: #c96464;width: 30%;margin: auto; box-shadow: 0 0 20px rgba(205, 92, 92,1);}
+	a{text-decoration: none;color: #b19b5678; font-size: 40px; display: block; margin: 20px;}
+	img{max-width: 40%; max-height: 40%; display: black; margin: 0 450px;box-shadow: 0 0 20px rgba(0, 0, 0,1);}
+	a:hover{
+		color: green;
+	}
