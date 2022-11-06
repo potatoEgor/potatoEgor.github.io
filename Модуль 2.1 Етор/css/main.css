@@ -1,0 +1,43 @@
+.img-box
+{
+	column-count: 4;
+	column-gap: 0px;
+	width: 90%;
+	margin: auto;
+}
+.image
+{
+	max-width: 100%;
+	display: block;
+	filter: sepia(1);
+}
+.image:hover
+{
+	filter: sepia(10%);
+	transition: 0.5s;
+}
+.heading
+{
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+body{
+
+}
+.main
+{
+	background-color: #f47e7e;
+	
+}
+@media all and (max-width: 768px)
+{
+	.img-box
+	{
+		column-count: 1;
+	}
+}
+a
+{
+	text-decoration: none;
+}

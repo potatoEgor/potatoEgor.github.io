@@ -1,0 +1,63 @@
+	*
+	{
+		padding: 0;
+		margin: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	body
+	{
+		background-color: #80808078;
+		font-family: Pacifico;
+	}
+	main
+	{
+		background-color: #c18e8ec2;
+		display: flex;
+		width: 95%;
+		max-width: 1020px;
+		margin: auto;
+		box-shadow: 0 0 20px 5px rgba(0, 0, 0, 3.);
+		flex-wrap: wrap;
+	}
+	.item
+	{
+		max-height: 265px;
+		max-width: 490px;
+		width: calc(50% - 10px);
+		height: calc(95vw /2 / 16*9);
+		background-color: greenyellow;
+		margin: 10px;
+		background-position: center;
+		background-size: cover;
+	}
+	.heading
+	{
+		font-size: 50px;
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		color: black;
+	}
+	@font-face
+	{
+		font-family: Pacifico;
+		src: url(../fonts/Pacifico-Regular.ttf);
+	}
+	.item:hover
+	{
+		transform: scale(1.15);
+		transition: 0.25s;
+		box-shadow: 0 0 200px 50px rgba(79, 69, 69, 1);
+	}
+	@media all and (max-width: 768px)
+	{
+	.item
+		{
+			max-height: initial;
+			max-width: initial;
+			width: 95vw;
+			height: calc(95vw / 16*9);
+		}
+	}
